@@ -1,0 +1,144 @@
+@media (max-width: 1200px) {
+    .header__nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        background: url(image/main-slide-img2.png)no-repeat 100% center/ 100%;
+    }
+
+    .info3 {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+    @media (max-width: 992px) {
+        .header__nav {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .carousel__content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact {
+            background: url(image/main-slide-img2.png)no-repeat 95% center/ 90%;
+        }
+
+        .info3 {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
+    }
+
+    .footer__all {
+        flex-wrap: wrap;
+    }
+
+    .slider__img {
+        position: static;
+    }
+
+    .silder__content {
+        margin: 0 auto;
+    }
+
+    .slider__img {
+        width: 95%;
+    }
+
+    .silder__content {
+        margin: 0 auto;
+    }
+
+    .footer__link {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        background: url(image/main-slide-img2.png)no-repeat 100% center/ 100%;
+    }
+
+    .footer__link {
+        margin: 0 auto;
+    }
+
+    .input1 {
+        width: 510px;
+        margin-top: 20px;
+    }
+
+    .other {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 568px) {
+    .header__nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        background: url(image/main-slide-img2.png)no-repeat 100% center/ 100%;
+    }
+
+    .google {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .play {
+        margin: 10px 10px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .info3 {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .input1 {
+        /* max-width: 350px; */
+        width: 100%;
+        margin-top: 20px;
+        /* margin: 0 auto; */
+    }
+
+    .input2 {
+        max-width: 350px;
+        width: 100%;
+
+
+    }
+
+    .footer__tellar {
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .other {
+        margin-left: 130px;
+        /* margin: 0 auto; */
+    }
+}
